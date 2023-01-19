@@ -1,0 +1,88 @@
+/* 
+ ---- 01 TYPOGRAPHY SYSTEM
+
+--FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--FONT WEIGHTS
+  Default:400;
+
+--LINE HIEGHT
+
+
+
+
+---- 02 COLOR
+
+--PRIMARY : #e67ee2;
+--TITNS: #fdf2e9
+--SHADES: #cf711f
+--ACCENTS:
+--GREYS:
+
+#555
+#333
+
+---- 03 IMAGES
+
+--UNSPLASH
+--UIFACES
+
+
+----04 icons
+
+--favicons
+
+
+----05 shadows
+
+----06 BORDER-RADIUS
+
+----07 WHITE SPACES
+
+--SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    
+
+*/
+html{
+  font-size:62.5%; 
+  
+  /* 10px/16px( default 16px enter by browser) ==0.625%  to make sure if there is any browser setting change from default(16px) then our changes happen */
+  /* base font size mostly for browser its is 16px  */
+
+}
+
+
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+
+
+}
+
+ div{
+  border:1px solid red;
+  background-color: red;
+  /* max-width: 1000px;    */
+  
+  /* if the width is larger than 1000px than it(div) occupy space as given otherwise if th
+  the width is smaller than 1000px then div will take its parent elment width     */
+  
+  max-width: 100rem; 
+   /* 1rem = 16px */
+   padding:4rem;
+  font-size: 4rem;
+} 
